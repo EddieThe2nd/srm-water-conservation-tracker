@@ -1,0 +1,554 @@
+{
+  "users": [
+    {
+      "id": "user001",
+      "type": "household",
+      "name": "Nkosi Family",
+      "region": "Soweto",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 320},
+        {"date": "2025-04-02", "litres": 310},
+        {"date": "2025-04-03", "litres": 400},
+        {"date": "2025-04-04", "litres": 350},
+        {"date": "2025-04-05", "litres": 330},
+        {"date": "2025-04-06", "litres": 360},
+        {"date": "2025-04-07", "litres": 390},
+        {"date": "2025-04-08", "litres": 375},
+        {"date": "2025-04-09", "litres": 340},
+        {"date": "2025-04-10", "litres": 355},
+        {"date": "2025-04-11", "litres": 365},
+        {"date": "2025-04-12", "litres": 380},
+        {"date": "2025-04-13", "litres": 395},
+        {"date": "2025-04-14", "litres": 410}
+      ],
+      "monthlySummary": {
+        "April2025": 5200,
+        "May2025": 5300
+      },
+      "alerts": [
+        {"date": "2025-04-03", "type": "high_usage", "message": "Possible leak detected due to spike in usage."}
+      ]
+    },
+    {
+      "id": "user002",
+      "type": "business",
+      "name": "Moyo Traders",
+      "region": "Midrand",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 1100},
+        {"date": "2025-04-02", "litres": 1150},
+        {"date": "2025-04-03", "litres": 1200},
+        {"date": "2025-04-04", "litres": 1250},
+        {"date": "2025-04-05", "litres": 1300},
+        {"date": "2025-04-06", "litres": 1400},
+        {"date": "2025-04-07", "litres": 1350},
+        {"date": "2025-04-08", "litres": 1380},
+        {"date": "2025-04-09", "litres": 1420},
+        {"date": "2025-04-10", "litres": 1450},
+        {"date": "2025-04-11", "litres": 1470},
+        {"date": "2025-04-12", "litres": 1500},
+        {"date": "2025-04-13", "litres": 1520},
+        {"date": "2025-04-14", "litres": 1550}
+      ],
+      "monthlySummary": {
+        "April2025": 19500,
+        "May2025": 20000
+      },
+      "alerts": []
+    },
+    {
+      "id": "user003",
+      "type": "household",
+      "name": "Van der Merwe Residence",
+      "region": "Pretoria East",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 290},
+        {"date": "2025-04-02", "litres": 280},
+        {"date": "2025-04-03", "litres": 275},
+        {"date": "2025-04-04", "litres": 300},
+        {"date": "2025-04-05", "litres": 295},
+        {"date": "2025-04-06", "litres": 310},
+        {"date": "2025-04-07", "litres": 305},
+        {"date": "2025-04-08", "litres": 290},
+        {"date": "2025-04-09", "litres": 285},
+        {"date": "2025-04-10", "litres": 295},
+        {"date": "2025-04-11", "litres": 300},
+        {"date": "2025-04-12", "litres": 310},
+        {"date": "2025-04-13", "litres": 320},
+        {"date": "2025-04-14", "litres": 330}
+      ],
+      "monthlySummary": {
+        "April2025": 4200,
+        "May2025": 4300
+      },
+      "alerts": [
+        {"date": "2025-04-05", "type": "unusual_pattern", "message": "Sudden drop in usage detected."}
+      ]
+    },
+    {
+      "id": "user004",
+      "type": "business",
+      "name": "Jozi Cafe",
+      "region": "Sandton",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 950},
+        {"date": "2025-04-02", "litres": 980},
+        {"date": "2025-04-03", "litres": 970},
+        {"date": "2025-04-04", "litres": 1000},
+        {"date": "2025-04-05", "litres": 1020},
+        {"date": "2025-04-06", "litres": 1040},
+        {"date": "2025-04-07", "litres": 1030},
+        {"date": "2025-04-08", "litres": 1050},
+        {"date": "2025-04-09", "litres": 1080},
+        {"date": "2025-04-10", "litres": 1100},
+        {"date": "2025-04-11", "litres": 1110},
+        {"date": "2025-04-12", "litres": 1130},
+        {"date": "2025-04-13", "litres": 1150},
+        {"date": "2025-04-14", "litres": 1170}
+      ],
+      "monthlySummary": {
+        "April2025": 14000,
+        "May2025": 14500
+      },
+      "alerts": [
+        {"date": "2025-04-06", "type": "high_usage", "message": "Higher than average usage during weekend."}
+      ]
+    },
+    {
+      "id": "user005",
+      "type": "household",
+      "name": "Mkhize Household",
+      "region": "Alexandra",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 280},
+        {"date": "2025-04-02", "litres": 285},
+        {"date": "2025-04-03", "litres": 295},
+        {"date": "2025-04-04", "litres": 310},
+        {"date": "2025-04-05", "litres": 320},
+        {"date": "2025-04-06", "litres": 325},
+        {"date": "2025-04-07", "litres": 330},
+        {"date": "2025-04-08", "litres": 335},
+        {"date": "2025-04-09", "litres": 340},
+        {"date": "2025-04-10", "litres": 345},
+        {"date": "2025-04-11", "litres": 350},
+        {"date": "2025-04-12", "litres": 355},
+        {"date": "2025-04-13", "litres": 360},
+        {"date": "2025-04-14", "litres": 365}
+      ],
+      "monthlySummary": {
+        "April2025": 4700,
+        "May2025": 4800
+      },
+      "alerts": []
+    },
+    {
+      "id": "user006",
+      "type": "household",
+      "name": "Dlamini Family",
+      "region": "Tembisa",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 340},
+        {"date": "2025-04-02", "litres": 350},
+        {"date": "2025-04-03", "litres": 360},
+        {"date": "2025-04-04", "litres": 370},
+        {"date": "2025-04-05", "litres": 355},
+        {"date": "2025-04-06", "litres": 360},
+        {"date": "2025-04-07", "litres": 365},
+        {"date": "2025-04-08", "litres": 370},
+        {"date": "2025-04-09", "litres": 375},
+        {"date": "2025-04-10", "litres": 380},
+        {"date": "2025-04-11", "litres": 385},
+        {"date": "2025-04-12", "litres": 390},
+        {"date": "2025-04-13", "litres": 395},
+        {"date": "2025-04-14", "litres": 400}
+      ],
+      "monthlySummary": {
+        "April2025": 5250,
+        "May2025": 5350
+      },
+      "alerts": []
+    },
+    {
+      "id": "user007",
+      "type": "business",
+      "name": "Pretoria Motors",
+      "region": "Pretoria CBD",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 2100},
+        {"date": "2025-04-02", "litres": 2150},
+        {"date": "2025-04-03", "litres": 2200},
+        {"date": "2025-04-04", "litres": 2250},
+        {"date": "2025-04-05", "litres": 2300},
+        {"date": "2025-04-06", "litres": 2350},
+        {"date": "2025-04-07", "litres": 2400},
+        {"date": "2025-04-08", "litres": 2450},
+        {"date": "2025-04-09", "litres": 2500},
+        {"date": "2025-04-10", "litres": 2550},
+        {"date": "2025-04-11", "litres": 2600},
+        {"date": "2025-04-12", "litres": 2650},
+        {"date": "2025-04-13", "litres": 2700},
+        {"date": "2025-04-14", "litres": 2750}
+      ],
+      "monthlySummary": {
+        "April2025": 36500,
+        "May2025": 37500
+      },
+      "alerts": [
+        {"date": "2025-04-10", "type": "high_usage", "message": "Spike detected during weekend."}
+      ]
+    },
+    {
+      "id": "user008",
+      "type": "household",
+      "name": "Botha Family",
+      "region": "Randburg",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 310},
+        {"date": "2025-04-02", "litres": 320},
+        {"date": "2025-04-03", "litres": 315},
+        {"date": "2025-04-04", "litres": 330},
+        {"date": "2025-04-05", "litres": 335},
+        {"date": "2025-04-06", "litres": 340},
+        {"date": "2025-04-07", "litres": 345},
+        {"date": "2025-04-08", "litres": 350},
+        {"date": "2025-04-09", "litres": 355},
+        {"date": "2025-04-10", "litres": 360},
+        {"date": "2025-04-11", "litres": 365},
+        {"date": "2025-04-12", "litres": 370},
+        {"date": "2025-04-13", "litres": 375},
+        {"date": "2025-04-14", "litres": 380}
+      ],
+      "monthlySummary": {
+        "April2025": 5000,
+        "May2025": 5100
+      },
+      "alerts": []
+    },
+    {
+      "id": "user009",
+      "type": "business",
+      "name": "Sandton Electronics",
+      "region": "Sandton",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 1600},
+        {"date": "2025-04-02", "litres": 1650},
+        {"date": "2025-04-03", "litres": 1700},
+        {"date": "2025-04-04", "litres": 1750},
+        {"date": "2025-04-05", "litres": 1800},
+        {"date": "2025-04-06", "litres": 1850},
+        {"date": "2025-04-07", "litres": 1900},
+        {"date": "2025-04-08", "litres": 1950},
+        {"date": "2025-04-09", "litres": 2000},
+        {"date": "2025-04-10", "litres": 2050},
+        {"date": "2025-04-11", "litres": 2100},
+        {"date": "2025-04-12", "litres": 2150},
+        {"date": "2025-04-13", "litres": 2200},
+        {"date": "2025-04-14", "litres": 2250}
+      ],
+      "monthlySummary": {
+        "April2025": 29000,
+        "May2025": 29500
+      },
+      "alerts": []
+    },
+    {
+      "id": "user010",
+      "type": "household",
+      "name": "Khumalo Household",
+      "region": "Alexandra",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 290},
+        {"date": "2025-04-02", "litres": 295},
+        {"date": "2025-04-03", "litres": 300},
+        {"date": "2025-04-04", "litres": 305},
+        {"date": "2025-04-05", "litres": 310},
+        {"date": "2025-04-06", "litres": 315},
+        {"date": "2025-04-07", "litres": 320},
+        {"date": "2025-04-08", "litres": 325},
+        {"date": "2025-04-09", "litres": 330},
+        {"date": "2025-04-10", "litres": 335},
+        {"date": "2025-04-11", "litres": 340},
+        {"date": "2025-04-12", "litres": 345},
+        {"date": "2025-04-13", "litres": 350},
+        {"date": "2025-04-14", "litres": 355}
+      ],
+      "monthlySummary": {
+        "April2025": 4800,
+        "May2025": 4900
+      },
+      "alerts": []
+    },
+    {
+      "id": "user011",
+      "type": "household",
+      "name": "Mabena Family",
+      "region": "Tembisa",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 310},
+        {"date": "2025-04-02", "litres": 320},
+        {"date": "2025-04-03", "litres": 315},
+        {"date": "2025-04-04", "litres": 325},
+        {"date": "2025-04-05", "litres": 330},
+        {"date": "2025-04-06", "litres": 335},
+        {"date": "2025-04-07", "litres": 340},
+        {"date": "2025-04-08", "litres": 345},
+        {"date": "2025-04-09", "litres": 350},
+        {"date": "2025-04-10", "litres": 355},
+        {"date": "2025-04-11", "litres": 360},
+        {"date": "2025-04-12", "litres": 365},
+        {"date": "2025-04-13", "litres": 370},
+        {"date": "2025-04-14", "litres": 375}
+      ],
+      "monthlySummary": {
+        "April2025": 5100,
+        "May2025": 5200
+      },
+      "alerts": []
+    },
+    {
+      "id": "user012",
+      "type": "business",
+      "name": "Gauteng Textiles",
+      "region": "Johannesburg CBD",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 1700},
+        {"date": "2025-04-02", "litres": 1725},
+        {"date": "2025-04-03", "litres": 1750},
+        {"date": "2025-04-04", "litres": 1775},
+        {"date": "2025-04-05", "litres": 1800},
+        {"date": "2025-04-06", "litres": 1825},
+        {"date": "2025-04-07", "litres": 1850},
+        {"date": "2025-04-08", "litres": 1875},
+        {"date": "2025-04-09", "litres": 1900},
+        {"date": "2025-04-10", "litres": 1925},
+        {"date": "2025-04-11", "litres": 1950},
+        {"date": "2025-04-12", "litres": 1975},
+        {"date": "2025-04-13", "litres": 2000},
+        {"date": "2025-04-14", "litres": 2025}
+      ],
+      "monthlySummary": {
+        "April2025": 27500,
+        "May2025": 28000
+      },
+      "alerts": []
+    },
+    {
+      "id": "user013",
+      "type": "household",
+      "name": "Naidoo Family",
+      "region": "Durban Deep",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 300},
+        {"date": "2025-04-02", "litres": 310},
+        {"date": "2025-04-03", "litres": 305},
+        {"date": "2025-04-04", "litres": 320},
+        {"date": "2025-04-05", "litres": 325},
+        {"date": "2025-04-06", "litres": 330},
+        {"date": "2025-04-07", "litres": 335},
+        {"date": "2025-04-08", "litres": 340},
+        {"date": "2025-04-09", "litres": 345},
+        {"date": "2025-04-10", "litres": 350},
+        {"date": "2025-04-11", "litres": 355},
+        {"date": "2025-04-12", "litres": 360},
+        {"date": "2025-04-13", "litres": 365},
+        {"date": "2025-04-14", "litres": 370}
+      ],
+      "monthlySummary": {
+        "April2025": 4950,
+        "May2025": 5000
+      },
+      "alerts": []
+    },
+    {
+      "id": "user014",
+      "type": "business",
+      "name": "Ekurhuleni Logistics",
+      "region": "Kempton Park",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 1900},
+        {"date": "2025-04-02", "litres": 1950},
+        {"date": "2025-04-03", "litres": 2000},
+        {"date": "2025-04-04", "litres": 2050},
+        {"date": "2025-04-05", "litres": 2100},
+        {"date": "2025-04-06", "litres": 2150},
+        {"date": "2025-04-07", "litres": 2200},
+        {"date": "2025-04-08", "litres": 2250},
+        {"date": "2025-04-09", "litres": 2300},
+        {"date": "2025-04-10", "litres": 2350},
+        {"date": "2025-04-11", "litres": 2400},
+        {"date": "2025-04-12", "litres": 2450},
+        {"date": "2025-04-13", "litres": 2500},
+        {"date": "2025-04-14", "litres": 2550}
+      ],
+      "monthlySummary": {
+        "April2025": 31500,
+        "May2025": 32000
+      },
+      "alerts": [
+        {"date": "2025-04-09", "type": "high_usage", "message": "Unexpected spike in water use."}
+      ]
+    },
+    {
+      "id": "user015",
+      "type": "household",
+      "name": "Zulu Household",
+      "region": "Katlehong",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 290},
+        {"date": "2025-04-02", "litres": 295},
+        {"date": "2025-04-03", "litres": 300},
+        {"date": "2025-04-04", "litres": 305},
+        {"date": "2025-04-05", "litres": 310},
+        {"date": "2025-04-06", "litres": 315},
+        {"date": "2025-04-07", "litres": 320},
+        {"date": "2025-04-08", "litres": 325},
+        {"date": "2025-04-09", "litres": 330},
+        {"date": "2025-04-10", "litres": 335},
+        {"date": "2025-04-11", "litres": 340},
+        {"date": "2025-04-12", "litres": 345},
+        {"date": "2025-04-13", "litres": 350},
+        {"date": "2025-04-14", "litres": 355}
+      ],
+      "monthlySummary": {
+        "April2025": 4800,
+        "May2025": 4900
+      },
+      "alerts": []
+    },
+    {
+      "id": "user016",
+      "type": "business",
+      "name": "Soweto Plastics",
+      "region": "Soweto",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 1300},
+        {"date": "2025-04-02", "litres": 1350},
+        {"date": "2025-04-03", "litres": 1400},
+        {"date": "2025-04-04", "litres": 1450},
+        {"date": "2025-04-05", "litres": 1500},
+        {"date": "2025-04-06", "litres": 1550},
+        {"date": "2025-04-07", "litres": 1600},
+        {"date": "2025-04-08", "litres": 1650},
+        {"date": "2025-04-09", "litres": 1700},
+        {"date": "2025-04-10", "litres": 1750},
+        {"date": "2025-04-11", "litres": 1800},
+        {"date": "2025-04-12", "litres": 1850},
+        {"date": "2025-04-13", "litres": 1900},
+        {"date": "2025-04-14", "litres": 1950}
+      ],
+      "monthlySummary": {
+        "April2025": 22000,
+        "May2025": 22500
+      },
+      "alerts": []
+    },
+    {
+      "id": "user017",
+      "type": "household",
+      "name": "Mahlangu Family",
+      "region": "Tembisa",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 300},
+        {"date": "2025-04-02", "litres": 310},
+        {"date": "2025-04-03", "litres": 315},
+        {"date": "2025-04-04", "litres": 320},
+        {"date": "2025-04-05", "litres": 330},
+        {"date": "2025-04-06", "litres": 335},
+        {"date": "2025-04-07", "litres": 340},
+        {"date": "2025-04-08", "litres": 345},
+        {"date": "2025-04-09", "litres": 350},
+        {"date": "2025-04-10", "litres": 355},
+        {"date": "2025-04-11", "litres": 360},
+        {"date": "2025-04-12", "litres": 365},
+        {"date": "2025-04-13", "litres": 370},
+        {"date": "2025-04-14", "litres": 375}
+      ],
+      "monthlySummary": {
+        "April2025": 5100,
+        "May2025": 5200
+      },
+      "alerts": []
+    },
+    {
+      "id": "user018",
+      "type": "business",
+      "name": "Johannesburg Textiles",
+      "region": "Johannesburg CBD",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 1800},
+        {"date": "2025-04-02", "litres": 1825},
+        {"date": "2025-04-03", "litres": 1850},
+        {"date": "2025-04-04", "litres": 1875},
+        {"date": "2025-04-05", "litres": 1900},
+        {"date": "2025-04-06", "litres": 1925},
+        {"date": "2025-04-07", "litres": 1950},
+        {"date": "2025-04-08", "litres": 1975},
+        {"date": "2025-04-09", "litres": 2000},
+        {"date": "2025-04-10", "litres": 2025},
+        {"date": "2025-04-11", "litres": 2050},
+        {"date": "2025-04-12", "litres": 2075},
+        {"date": "2025-04-13", "litres": 2100},
+        {"date": "2025-04-14", "litres": 2125}
+      ],
+      "monthlySummary": {
+        "April2025": 29000,
+        "May2025": 29500
+      },
+      "alerts": []
+    },
+    {
+      "id": "user019",
+      "type": "household",
+      "name": "Pretorius Household",
+      "region": "Randburg",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 310},
+        {"date": "2025-04-02", "litres": 315},
+        {"date": "2025-04-03", "litres": 320},
+        {"date": "2025-04-04", "litres": 325},
+        {"date": "2025-04-05", "litres": 330},
+        {"date": "2025-04-06", "litres": 335},
+        {"date": "2025-04-07", "litres": 340},
+        {"date": "2025-04-08", "litres": 345},
+        {"date": "2025-04-09", "litres": 350},
+        {"date": "2025-04-10", "litres": 355},
+        {"date": "2025-04-11", "litres": 360},
+        {"date": "2025-04-12", "litres": 365},
+        {"date": "2025-04-13", "litres": 370},
+        {"date": "2025-04-14", "litres": 375}
+      ],
+      "monthlySummary": {
+        "April2025": 4850,
+        "May2025": 4900
+      },
+      "alerts": []
+    },
+    {
+      "id": "user020",
+      "type": "business",
+      "name": "Sandton Software",
+      "region": "Sandton",
+      "dailyUsageLitres": [
+        {"date": "2025-04-01", "litres": 1500},
+        {"date": "2025-04-02", "litres": 1550},
+        {"date": "2025-04-03", "litres": 1600},
+        {"date": "2025-04-04", "litres": 1650},
+        {"date": "2025-04-05", "litres": 1700},
+        {"date": "2025-04-06", "litres": 1750},
+        {"date": "2025-04-07", "litres": 1800},
+        {"date": "2025-04-08", "litres": 1850},
+        {"date": "2025-04-09", "litres": 1900},
+        {"date": "2025-04-10", "litres": 1950},
+        {"date": "2025-04-11", "litres": 2000},
+        {"date": "2025-04-12", "litres": 2050},
+        {"date": "2025-04-13", "litres": 2100},
+        {"date": "2025-04-14", "litres": 2150}
+      ],
+      "monthlySummary": {
+        "April2025": 25500,
+        "May2025": 26000
+      },
+      "alerts": []
+    }
+  ]
+}
