@@ -10,7 +10,7 @@ jest.mock('react-router-dom', () => ({
   useNavigate: () => jest.fn(),
 }));
 
-// ✅ Fix ResizeObserver error from recharts
+
 global.ResizeObserver = class {
   observe() {}
   unobserve() {}

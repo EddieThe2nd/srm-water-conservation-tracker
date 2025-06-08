@@ -1,6 +1,6 @@
 import { useState } from 'react';
  import { useNavigate } from 'react-router-dom';
-import './Login.css'; // Adjust the path if your CSS file location differs
+import './Login.css'; 
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -20,7 +20,7 @@ const Login = () => {
         <div className="left-panel">
           <h2>Welcome</h2>
           <p>Introducing Water Conservation Tracker</p>
-          {/* Illustration placeholder or image */}
+        
           <div className="illustration-placeholder">
             <svg
               width="140"
